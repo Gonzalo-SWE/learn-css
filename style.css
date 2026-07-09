@@ -1,0 +1,21 @@
+body {
+    background-color: #aabbcc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+   
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+    text-align: start; 
+}
+
+.footer-div{
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
