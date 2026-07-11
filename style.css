@@ -1,10 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #aabbcc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-   
     font-size: 25px;
     text-align: center;
 }
@@ -18,4 +21,16 @@ p {
     background-color: wheat;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    display: flex;
+    border: .3rem solid red;
+    height: 16rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article {
+    background-color: aqua;
 }
