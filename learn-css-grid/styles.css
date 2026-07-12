@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(159, 213, 246);
+}
+
+.grid-container{
+    display: grid;
+    background-color: rgb(180, 134, 222);
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: .5rem;
+}
+
+.item{
+    padding: 2rem;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 1.1rem;
+}
