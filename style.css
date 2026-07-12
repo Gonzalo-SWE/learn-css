@@ -28,9 +28,21 @@ section {
     border: .3rem solid red;
     height: 16rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 article {
     background-color: aqua;
+}
+
+article:first-child {
+    align-self: flex-end;
+}
+
+article:nth-child(2){
+   background-color: bisque;
+}
+
+article:last-child{
+    align-self: flex-start;
 }
